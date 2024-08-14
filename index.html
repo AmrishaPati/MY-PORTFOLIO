@@ -1,74 +1,508 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Page Title</title>
-     <!-- Required meta tags -->
-     <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1">
-     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!--- Bootstrap JS--->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    
-    <!--font-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!--CSS-->
-    <link rel="stylesheet" href="/CSS/main.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Amrisha Pati</title>
+  <!-- ================  CSS FILES  ================ -->
+  <link rel="stylesheet" href="CSS/circle.css">
+  <link rel="stylesheet" href="CSS/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- ================ BOOTSTRAP 5 CSS ================ -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <!-- ================ BOOTSTRAP 5 JS ================ -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <!-- ================ BOOTSTRAP 5 icon ================ -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+
+  <!-- poppins-font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- annimation -->
+  <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.0.1/dist/aos.css" />
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.0.1/dist/aos.js"></script>
+
+  </body>
+
+</html>
 </head>
+</head>
+
 <body>
-<!--TOP HEADER-->
-<div class="sub-header">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-8">
-          <ul class="info">
-            <li><i class="fa fa-envelope" aria-hidden="true"></i> info@company.com</li>
-            <li><i class="fa fa-map"></i> Sunny Isles Beach, FL 33160</li>
-          </ul>
-        </div>
-        <div class="col-lg-4 col-md-4">
-          <ul class="social-links">
-            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="https://x.com/minthu" target="_blank"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-          </ul>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top fixed-top my-nav">
+    <div class="container-fluid">
+      <a class="navbar-brand my-name" href="/">Amrisha</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto my-menu">
+          <li class="nav-item">
+            <a class="nav-link mx-2 active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="#">What I Do</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="#">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="#">Portfolio
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="#">FAQ
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="#">Contact
+            </a>
+          </li>
+
+        </ul>
+        <ul class="navbar-nav ms-auto d-none d-lg-inline-flex social-share ">
+          <li class="nav-item mx-2">
+            <a class="nav-link text-dark h5 zoom" href="https://www.behance.net/amrishapati/" target="blank"><i class="bi bi-behance"></i></a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link text-dark h5 zoom" href="https://github.com/AmrishaPati" target="blank"><i class="bi bi-github"></i></a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link text-dark h5 zoom" href="https://www.linkedin.com/in/amrisha-pati-557b011b9/" target="blank"><i class="bi bi-linkedin"></i></a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link text-dark h5 zoom" href="" target="blank"><i class="fab fa-facebook-square"></i></a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link text-dark h5 zoom" href="" target="blank"><i class="bi bi-twitter-x"></i></a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!--============================== Hero Section ==============================-->
+
+  <!-- Background image -->
+  <header class="hero" id="overlay">
+    <div class="hero-content text-center">
+      <h1 class="hero-title">I'M AMRISHA PATI</h1>
+      <h2 class="hero-title2 mb-5">FRONT-END DEVELOPER</h2>
+      <!-- <p class="hero-subtitle">Experienced Website Developer with 3.5 years of<br /> expertise in web design</p> -->
+      <a href="#" class="hero-button">more about me</a>
+    </div>
+  </header>
+
+  <div class="position-relative d-flex text-center space-heading">
+    <h2 class="text-24 text-light1 opacity-4 text-uppercase fw-600 w-100 mb-0">ABOUT ME</h2>
+    <p class="text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0">Know Me More<span
+        class="heading-separator-line d-block mx-auto"></span> </p>
+  </div>
+  <!-- ABOUT ME -->
+
+  <!-- About-sec2 -->
+  <div class="container ">
+    <div class="row pb-5">
+      <div class="col-lg-8 col-md-12 col-sm-12 about-space1">
+        <h2 class="about-me1">Hi, I'm <span class="text-primary1">Amrisha,</span></h2>
+        <p class="About-me">
+          As a Front-end developer, I specialize in creating dynamic, user-friendly websites tailored to meet your
+          specific needs. With a keen eye for design and a strong foundation in coding, I bring your vision to life on
+          the web. From responsive layouts to seamless navigation, I ensure that every aspect of your site is optimized
+          for performance and user experience. Let's build a digital presence that sets you apart.
+        </p>
+      </div>
+      <div class="col-lg-4 col-md-12 col-12 mt-4 mt-lg-0 wow fadeInUp text-center" data-wow-delay="0.2s"
+        style="visibility: visible; animation-delay: 0.2s;">
+        <div class="featured-box1 style-4">
+          <div class="featured-box-icon text-25 bg-primary1 rounded-circle">
+            <span class="wow heartBeat" data-wow-delay="1.3s"
+              style="visibility: visible; animation-delay: 1.3s;">4</span>
+          </div>
+          <h3 class="text-7 wow rubberBand" data-wow-delay="2s" style="visibility: visible; animation-delay: 2s;">Years
+            of <span class="fw-700">Experiance</span>
+          </h3>
         </div>
       </div>
     </div>
   </div>
-<!--TOP HEADER-->
-
-<!--MAIN HEADER-->
-
-<header class="header-area header-sticky">
+  <!-- About-sec2 -->
+  <!-- what i do -->
+  <section id="services" class="section bg-light">
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <nav class="main-nav">
-                    <!-- ***** Logo Start ***** -->
-                    <a href="index.html" class="logo">
-                        <h1>Villa</h1>
-                    </a>
-                    <!-- ***** Logo End ***** -->
-                    <!-- ***** Menu Start ***** -->
-                    <ul class="nav">
-                      <li><a href="index.html" class="active">Home</a></li>
-                      <li><a href="properties.html">Properties</a></li>
-                      <li><a href="property-details.html">Property Details</a></li>
-                      <li><a href="contact.html">Contact Us</a></li>
-                      <li><a href="#"><i class="fa fa-calendar"></i> Schedule a visit</a></li>
-                  </ul>   
-                    <a class="menu-trigger">
-                        <span>Menu</span>
-                    </a>
-                    <!-- ***** Menu End ***** -->
-                </nav>
-            </div>
+      <div class="position-relative d-flex text-center space-heading">
+        <h2 class="text-24 text-light1 opacity-4 text-uppercase fw-600 w-100 mb-0">WHAT I DO</h2>
+        <p class="text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0">Services<span
+            class="heading-separator-line d-block mx-auto"></span> </p>
+      </div>
+      <div class="row gy-5 space-side">
+        <div class="col-lg-4 col-md-12 col-12 wow fadeInUp" style="visibility: visible;">
+          <div class="featured-box text-center px-md-4">
+            <div class="featured-box-icon text-primary text-13"> <img src="/Images/Graphic Design.png"
+                class="featured-img"></div>
+            <h3 class="text-6 fw-600 mb-3">Graphic Design</h3>
+            <p class="text-muted mb-0">Graphic design is the craft of visually communicating ideas through images,
+              typography, and layout to create impactful and engaging designs.</p>
+          </div>
         </div>
+        <div class="col-lg-4 col-md-12 col-12 wow fadeInUp" style="visibility: visible;">
+          <div class="featured-box text-center px-md-4">
+            <div class="featured-box-icon text-primary text-13"><img src="/Images/Web Design.png" class="featured-img">
+            </div>
+            <h3 class="text-6 fw-600 mb-3">Web Design</h3>
+            <p class="text-muted mb-0">Web design involves creating websites that are visually appealing and user-friendly, focusing on layout, colors, typography, and interactive elements.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 col-12 wow fadeInUp" style="visibility: visible;">
+          <div class="featured-box text-center px-md-4">
+            <div class="featured-box-icon text-primary text-13"><img src="/Images/UIUX.png" class="featured-img"></div>
+            <h3 class="text-6 fw-600 mb-3">UI/UX Design</h3>
+            <p class="text-muted mb-0">UI/UX design enhances user experiences by creating intuitive, user-friendly interfaces, combining aesthetics with functionality and usability principles.</p>
+          </div>
+        </div>
+      </div>
     </div>
-  </header>
+  </section>
 
-<!--MAIN HEADER-->
+  <!-- what i do -->
+  <!-- CV -->
+  <section id="cv1" class="section">
+    <div class="container">
+      <div class="position-relative d-flex text-center space-heading">
+        <h2 class="text-24 text-light1 opacity-4 text-uppercase fw-600 w-100 mb-0">RESUME</h2>
+        <p class="text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0">Experience &
+          Education<span class="heading-separator-line d-block mx-auto"></span>
+        </p>
+      </div>
+      <!-- ------------- -->
+      <div class="container about">
+        <div class="row gy-5">
+          <div class="col-lg-6 col-md-6 col-12">
+            <div class="resume-box">
+              <ul class="resume">
+                <li>
+                  <div class="icon">
+                    <i class="fa fa-briefcase"></i>
+                  </div>
+                  <span class="time text-uppercase">2023 - Present</span>
+                  <h5 class="poppins-font text-uppercase">Front-end Developer<span class="place open-sans-font">Aarav
+                      Infotech India Pvt. Ltd.</span>
+                  </h5>
+                  <p class="open-sans-font">Created responsive web pages with HTML, CSS, Bootstrap, and modern
+                    frameworks, converting PSD designs, ensuring cross-device compatibility, and optimizing performance.
+                  </p>
+                </li>
+                <li>
+                  <div class="icon">
+                    <i class="fa fa-briefcase"></i>
+                  </div>
+                  <span class="time text-uppercase">2021 - 2022</span>
+                  <h5 class="poppins-font text-uppercase">Software Engineer<span class="place open-sans-font">Qtonix
+                      Software Pvt. Ltd. </span>
+                  </h5>
+                  <p class="open-sans-font">Developed responsive, visually appealing web pages from PSD using HTML, CSS,
+                    Bootstrap; optimized performance, implemented SEO, and ensured cross-browser compatibility.</p>
+                </li>
+                <li>
+                  <div class="icon">
+                    <i class="fa fa-briefcase"></i>
+                  </div>
+                  <span class="time text-uppercase">2021 - 2021</span>
+                  <h5 class="poppins-font text-uppercase">Web Developer<span class="place open-sans-font">Konstant Info
+                      Pro System Pvt. Ltd.</span>
+                  </h5>
+                  <p class="open-sans-font">Designed and coded responsive web pages from PSD using HTML, CSS, Bootstrap,
+                    and JavaScript; tested, fixed issues, and optimized SEO.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-12">
+            <div class="resume-box">
+              <ul class="resume">
+                <li>
+                  <div class="icon">
+                    <i class="fa fa-briefcase"></i>
+                  </div>
+                  <span class="time text-uppercase">2019-2021</span>
+                  <h5 class="poppins-font text-uppercase">Master in Computer Engineering<span
+                      class="place open-sans-font">ABIT</span>
+                  </h5>
+                  <p class="open-sans-font">The Master of Computer Applications (MCA) is a postgraduate degree focusing
+                    on computer science, software development, and IT management skills.</p>
+                </li>
+                <li>
+                  <div class="icon">
+                    <i class="fa fa-briefcase"></i>
+                  </div>
+                  <span class="time text-uppercase">2019 - 2021</span>
+                  <h5 class="poppins-font text-uppercase">Bachelor of Science (ITM)<span
+                      class="place open-sans-font">KIIMS</span>
+                  </h5>
+                  <p class="open-sans-font">A Bachelor of Science in Information Technology Management (ITM) combines
+                    technology skills with business management, preparing graduates for tech-driven leadership roles.
+                  </p>
+                </li>
+                <li>
+                  <div class="icon">
+                    <i class="fa fa-briefcase"></i>
+                  </div>
+                  <span class="time text-uppercase">2014 - 2016</span>
+                  <h5 class="poppins-font text-uppercase">+2 Science<span class="place open-sans-font">Sudarshan
+                      Mahavidyalaya</span>
+                  </h5>
+                  <p class="open-sans-font">+2 Science involves advanced study in subjects like Physics, Chemistry,
+                    Biology, and Mathematics, preparing students for higher education and careers.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- CV -->
+  <!-- skills -->
+  <div class="container">
+    <div class="row text-center">
+      <h1 class="white">My Skills</h1>
+    </div>
+
+    <div class="row space2">
+      <div class="col-lg-6 col-md-12 col-12">
+        <div class="progress1 red">
+          <h3 class="progress-title">HTML5</h3>
+          <div class="progress-bar">
+            <div class="progress-value" style="width: 90%;">90%</div>
+          </div>
+        </div>
+
+        <div class="progress1 green">
+          <h3 class="progress-title">CSS3</h3>
+          <div class="progress-bar">
+            <div class="progress-value" style="width: 90%;">90%</div>
+          </div>
+        </div>
+
+        <div class="progress1 blue">
+          <h3 class="progress-title">JAVASCRIPT</h3>
+          <div class="progress-bar">
+            <div class="progress-value" style="width: 50%;">50%</div>
+          </div>
+        </div>
+
+        <div class="progress1 yellow">
+          <h3 class="progress-title">PHP</h3>
+          <div class="progress-bar">
+            <div class="progress-value" style="width: 50%;">50%</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-12">
+        <div class="progress1 red">
+          <h3 class="progress-title">BOOTSTRAP 5</h3>
+          <div class="progress-bar">
+            <div class="progress-value" style="width: 80%;">80%</div>
+          </div>
+        </div>
+
+        <div class="progress1 green">
+          <h3 class="progress-title">CMS</h3>
+          <div class="progress-bar">
+            <div class="progress-value" style="width: 100%;">100%</div>
+          </div>
+        </div>
+
+        <div class="progress1 blue">
+          <h3 class="progress-title">React</h3>
+          <div class="progress-bar">
+            <div class="progress-value" style="width: 30%;">30%</div>
+          </div>
+        </div>
+
+        <div class="progress1 yellow">
+          <h3 class="progress-title">MYSQL</h3>
+          <div class="progress-bar">
+            <div class="progress-value" style="width: 75%;">75%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- faq -->
+  <section id="cv1" class="section bg-light">
+    <div class="container">
+      <div class="position-relative d-flex text-center space-heading">
+        <h2 class="text-24 text-light1 opacity-4 text-uppercase fw-600 w-100 mb-0">FAQ</h2>
+        <p class="text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0">Have Any Questions?<span class="heading-separator-line d-block mx-auto"></span>
+        </p>
+      </div>
+      </div>
+      </section>
+      <!--  -->
+  <section id="faq" class="section bg-light space-3">
+    <div class="container">
+      <div class="row gy-5">
+        <div class="col-lg-6 order-1 order-lg-0 wow fadeInUp" style="visibility: visible;">
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                  aria-controls="panelsStayOpen-collapseOne">
+                  1. What services do you offer as a front-end developer?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                    I specialize in creating visually appealing and user-friendly
+                     websites and web applications. My services include responsive web design, 
+                     UI/UX design, HTML/CSS coding, JavaScript development, and performance optimization.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseTwo">
+                  2. How do you ensure that the websites you build are responsive?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                 I use responsive design techniques to ensure that your website looks great on all devices. This includes flexible 
+                    grid layouts, media queries, and scalable images. I test the site on various devices and screen sizes to ensure a seamless
+                     experience.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThree">
+                  3. What technologies do you use?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body">
+                  I primarily work with HTML, CSS, JavaScript, and popular frameworks like React and Vue.js. I also use tools like SASS for advanced styling, and build tools such as Webpack and Babel to optimize performance.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingfour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapsefour" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapsefour">
+                  4. How long does it take to complete a project?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapsefour" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingfour">
+                <div class="accordion-body">
+                  The timeline for a project depends on its complexity and scope. Generally, a basic website can be completed within a few weeks, while more complex projects may take several months. I provide a detailed timeline and regular updates throughout the project.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingfive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapsefive" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapsefive">
+                  5. Will my website be optimized for search engines?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapsefive" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingfive">
+                <div class="accordion-body">
+                  Yes, I follow best practices for SEO to ensure that your website is search-engine-friendly. This includes optimizing page load times, using proper HTML semantics, and ensuring that the site is accessible and mobile-friendly.
+                </div>
+              </div>
+            </div> <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingsix">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapsesix" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapsesix">
+                  6. Can you help with ongoing maintenance and updates?
+
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapsesix" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingsix">
+                <div class="accordion-body">
+                  Absolutely! I offer maintenance and support services to ensure your website remains up-to-date and performs optimally. This can include updating content, fixing bugs, and implementing new features.
+
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+        
+        <div class="col-lg-6 d-flex align-items-center justify-content-center order-0 order-lg-1 wow fadeIn"
+          data-wow-delay="1s" style="visibility: visible; animation-delay: 1s;"> 
+          <img class="img-fluid"
+            src="images/faq-img.png" title="FAQ" alt="faq">
+      </div>
+    </div>
+    </div>
+   
+    </section>
+
+  <!--faq  -->
+     <!-- contact me -->
+     <section class="callto spad set-bg" data-setbg="/images" style="background-image: url(/Images/CTA.webp);">
+      <div class="container">
+      <div class="row d-flex justify-content-center">
+      <div class="col-lg-8">
+      <div class="callto__text">
+      <h2 class="cta-text">Let's Build Something Great Together!</h2>
+      <a href="tel:+917008482841" class="cta-btn">CONNECT WITH ME</a>
+      </div>
+      </div>
+      </div>
+      </div>
+      </section>
+      <!-- contact me -->
+
+  <!-- footer -->
+  <div class="container-fluid">
+    <div class="row">
+      <p class="text-center bg-dark text-light mb-0 footer">Copyright © 2024 | All rights reserved | Design By Amrisha
+        <i class="fa fa-heart" style="font-size:20px;color:red"></i>
+      </p>
+    </div>
+  </div>
+  
+  <!-- footer -->
+
 </body>
+<!-------- -->
+
 </html>
