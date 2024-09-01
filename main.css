@@ -226,7 +226,7 @@ i.fa.fa-briefcase {
   padding: 0 20px 0 30px;
   margin: 0 0 30px;
 }
-p.place.open-sans-font {
+span.place.open-sans-font {
   opacity: .8;
   font-weight: 600;
   font-size: 15px;
