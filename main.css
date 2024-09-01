@@ -226,7 +226,7 @@ i.fa.fa-briefcase {
   padding: 0 20px 0 30px;
   margin: 0 0 30px;
 }
-span.place.open-sans-font {
+p.place.open-sans-font {
   opacity: .8;
   font-weight: 600;
   font-size: 15px;
@@ -250,7 +250,7 @@ h2.about-me1 {
 .icon {
   padding-bottom: 16px;
 }
-span.time.text-uppercase {
+p.time.text-uppercase {
   background-color: #eee;
   font-size: 12px;
   padding: 1px 10px;
