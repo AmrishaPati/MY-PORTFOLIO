@@ -722,18 +722,13 @@ img.featured-img {
     rgba(0, 0, 0, 0.5) 0px 18px 36px -18px inset; */
 }
 .card h2, span {
-  position: absolute;
+  position: relative;
   top: 50%;
-  left: 50%;
   transform: translate(-50%, -50%);
   font-size: 3rem;
   font-weight: 800;
   pointer-events: none;
   opacity: 0.5;
-}
-
-span {
-  top: 75%;
 }
 
 .card .content h3 {
