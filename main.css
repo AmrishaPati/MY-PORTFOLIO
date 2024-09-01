@@ -136,7 +136,7 @@ ul.my-menu li a {
 
 .hero {
   position: relative;
-  background: url('/Images/main-banner.webp') center/cover no-repeat;
+  background: url('main-banner.webp') center/cover no-repeat;
   height: 100vh;
   display: flex;
   align-items: center;
