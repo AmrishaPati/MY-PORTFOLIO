@@ -6,9 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Amrisha Pati</title>
-  <link rel="icon" type="image/x-icon" href="MY-PHOTO.png">
   <!-- ================  CSS FILES  ================ -->
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="CSS/circle.css">
+  <link rel="stylesheet" href="CSS/main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -43,7 +43,7 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top fixed-top my-nav">
     <div class="container-fluid">
-      <a class="navbar-brand my-name" href="https://amrishapati.github.io/MY-PORTFOLIO/">Amrisha</a>
+      <a class="navbar-brand my-name" href="/">Amrisha</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -52,28 +52,32 @@
       <div class=" collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ms-auto my-menu">
           <li class="nav-item">
-            <a class="nav-link mx-2 active" aria-current="page" href="https://amrishapati.github.io/MY-PORTFOLIO/">Home</a>
+            <a class="nav-link mx-2 active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mx-2" href="https://amrishapati.github.io/MY-PORTFOLIO/#about">About</a>
+            <a class="nav-link mx-2" href="#">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mx-2" href="https://amrishapati.github.io/MY-PORTFOLIO/#services">What I Do</a>
+            <a class="nav-link mx-2" href="#">What I Do</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mx-2" href="https://amrishapati.github.io/MY-PORTFOLIO/#cv1">Resume</a>
+            <a class="nav-link mx-2" href="#">Resume</a>
           </li>
-<!--           <li class="nav-item">
-            <a class="nav-link mx-2" href="https://amrishapati.github.io/MY-PORTFOLIO/#faq">FAQ
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="#">Portfolio
             </a>
-          </li> -->
+          </li>
           <li class="nav-item">
-            <a class="nav-link mx-2" href="https://amrishapati.github.io/MY-PORTFOLIO/#contact">Contact
+            <a class="nav-link mx-2" href="#">FAQ
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="#">Contact
             </a>
           </li>
 
         </ul>
-        <ul class="navbar-nav ms-auto d-flex social-share ">
+        <ul class="navbar-nav ms-auto d-none d-lg-inline-flex social-share ">
           <li class="nav-item mx-2">
             <a class="nav-link text-dark h5 zoom" href="https://www.behance.net/amrishapati/" target="blank"><i class="bi bi-behance"></i></a>
           </li>
@@ -83,9 +87,9 @@
           <li class="nav-item mx-2">
             <a class="nav-link text-dark h5 zoom" href="https://www.linkedin.com/in/amrisha-pati-557b011b9/" target="blank"><i class="bi bi-linkedin"></i></a>
           </li>
-<!--           <li class="nav-item mx-2">
+          <li class="nav-item mx-2">
             <a class="nav-link text-dark h5 zoom" href="" target="blank"><i class="fab fa-facebook-square"></i></a>
-          </li> -->
+          </li>
           <li class="nav-item mx-2">
             <a class="nav-link text-dark h5 zoom" href="" target="blank"><i class="bi bi-twitter-x"></i></a>
           </li>
@@ -104,7 +108,7 @@
       <h1 class="hero-title">I'M AMRISHA PATI</h1>
       <h2 class="hero-title2 mb-5">FRONT-END DEVELOPER</h2>
       <!-- <p class="hero-subtitle">Experienced Website Developer with 3.5 years of<br /> expertise in web design</p> -->
-      <a href="https://amrishapati.github.io/MY-PORTFOLIO/#cv1" class="hero-button">more about me</a>
+      <a href="#" class="hero-button">more about me</a>
     </div>
   </header>
 
@@ -116,7 +120,7 @@
   <!-- ABOUT ME -->
 
   <!-- About-sec2 -->
-  <div class="container" id="about">
+  <div class="container ">
     <div class="row pb-5">
       <div class="col-lg-8 col-md-12 col-sm-12 about-space1">
         <h2 class="about-me1">Hi, I'm <span class="text-primary1">Amrisha,</span></h2>
@@ -152,28 +156,32 @@
       </div>
       <div class="row gy-5 space-side">
         <div class="col-lg-4 col-md-12 col-12 wow fadeInUp" style="visibility: visible;">
-          <div class="featured-box text-center px-md-4">
-            <div class="featured-box-icon text-primary text-13"> <img src="Graphic Design.png"
-                class="featured-img"></div>
-            <h3 class="text-6 fw-600 mb-3">Graphic Design</h3>
-            <p class="text-muted mb-0">Graphic design is the craft of visually communicating ideas through images,
-              typography, and layout to create impactful and engaging designs.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-12 col-12 wow fadeInUp" style="visibility: visible;">
-          <div class="featured-box text-center px-md-4">
-            <div class="featured-box-icon text-primary text-13"><img src="Web Design.png" class="featured-img">
+          <div class="cardBox">
+            <div class="card">
+              <img src="Graphic Design.png" class="featured-img">
+              <h3 class="text-6 fw-600 mb-3">Graphic Design</h3>
+              <p class="text-muted mb-0">Graphic design is the craft of visually communicating ideas through images,
+                typography, and layout to create impactful and engaging designs.</p>
             </div>
-            <h3 class="text-6 fw-600 mb-3">Web Design</h3>
-            <p class="text-muted mb-0">Web design involves creating websites that are visually appealing and user-friendly, focusing on layout, colors, typography, and interactive elements.
-            </p>
           </div>
         </div>
         <div class="col-lg-4 col-md-12 col-12 wow fadeInUp" style="visibility: visible;">
-          <div class="featured-box text-center px-md-4">
-            <div class="featured-box-icon text-primary text-13"><img src="UIUX.png" class="featured-img"></div>
-            <h3 class="text-6 fw-600 mb-3">UI/UX Design</h3>
-            <p class="text-muted mb-0">UI/UX design enhances user experiences by creating intuitive, user-friendly interfaces, combining aesthetics with functionality and usability principles.</p>
+          <div class="cardBox">
+            <div class="card">
+              <img src="Graphic Design.png" class="featured-img">
+              <h3 class="text-6 fw-600 mb-3">Graphic Design</h3>
+              <p class="text-muted mb-0">Graphic design is the craft of visually communicating ideas through images,
+                typography, and layout to create impactful and engaging designs.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 col-12 wow fadeInUp" style="visibility: visible;">
+          <div class="cardBox">
+            <div class="card">
+              <img src="UIUX.png" class="featured-img">
+              <h3 class="text-6 fw-600 mb-3">UI/UX Design</h3>
+              <p class="text-muted mb-0">UI/UX design enhances user experiences by creating intuitive, user-friendly interfaces, combining aesthetics with functionality and usability&nbsp;principles.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -345,7 +353,7 @@
     </div>
   </div>
   <!-- faq -->
-<!--   <section id="cv1" class="section bg-light">
+  <section id="cv1" class="section bg-light">
     <div class="container">
       <div class="position-relative d-flex text-center space-heading">
         <h2 class="text-24 text-light1 opacity-4 text-uppercase fw-600 w-100 mb-0">FAQ</h2>
@@ -353,9 +361,9 @@
         </p>
       </div>
       </div>
-      </section> -->
+      </section>
       <!--  -->
-<!--   <section id="faq" class="section bg-light space-3">
+  <section id="faq" class="section bg-light space-3">
     <div class="container">
       <div class="row gy-5">
         <div class="col-lg-6 order-1 order-lg-0 wow fadeInUp" style="visibility: visible;">
@@ -464,28 +472,29 @@
         <div class="col-lg-6 d-flex align-items-center justify-content-center order-0 order-lg-1 wow fadeIn"
           data-wow-delay="1s" style="visibility: visible; animation-delay: 1s;"> 
           <img class="img-fluid"
-            src="faq-img.png" title="FAQ" alt="faq">
+            src="images/faq-img.png" title="FAQ" alt="faq">
       </div>
     </div>
     </div>
    
     </section>
- -->
+
   <!--faq  -->
      <!-- contact me -->
-     <section class="callto spad set-bg" data-setbg="images" style="background-image: url(CTA.webp);">
-      <div class="container" id="contact">
+     <section class="callto spad set-bg" data-setbg="/images" style="background-image: url(/Images/CTA.webp);">
+      <div class="container">
       <div class="row d-flex justify-content-center">
       <div class="col-lg-8">
       <div class="callto__text">
       <h2 class="cta-text">Let's Build Something Great Together!</h2>
-      <a href="mailto:amrishapatioffcial02@gmail.com" class="cta-btn">CONNECT WITH ME</a>
+      <a href="tel:+917008482841" class="cta-btn">CONNECT WITH ME</a>
       </div>
       </div>
       </div>
       </div>
       </section>
       <!-- contact me -->
+      
 
   <!-- footer -->
   <div class="container-fluid">
