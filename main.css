@@ -717,3 +717,14 @@ img.featured-img {
     padding: 0px 0px 50px 0px;
 }
 }
+a.nav-link.text-dark.h5.zoom:hover {
+    color: #72b626;
+    box-shadow: 0 0 5px #72b626;
+    text-shadow: 0 0 5px #72b626;
+    border-radius: 50%;
+}
+ul.social-share li a {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #72b626;
+    border-radius: 50%;
+}
