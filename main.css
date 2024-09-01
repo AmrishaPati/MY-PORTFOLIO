@@ -728,32 +728,3 @@ ul.social-share li a {
     box-shadow: 0 0 15px #72b626;
     border-radius: 50%;
 }
-.featured-box {
-    position: relative;
-    display: grid;
-    place-items: center;
-    overflow: hidden;
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 10px 0px, rgba(0, 0, 0, 0.5) 0px 2px 25px 0px;
-}
-.featured-box:before {
-    content: "";
-    position: absolute;
-    width: 40%;
-    height: 150%;
-    background: #40E0D0;
-    background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);
-    background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);
-    animation: glowing01 5s linear infinite;
-    transform-origin: center;
-    animation: glowing 5s linear infinite;
-}
-@keyframes glowing {
-  0% {
-    transform: rotate(0);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
