@@ -123,9 +123,10 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.fixed-top.fixed-top.my-nav {
   border-radius: 0px;
 }
 ul.my-menu li a {
-  font-size: 15px;
-  font-weight: 600;
-  font-family: 'Poppins';
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Poppins';
 }
 .dropdown-toggle::after {
     display: none;
@@ -349,8 +350,9 @@ p.text-9 {
     z-index: 2;
 }
   }
-  ul.social-share li a {
-    color: #fff !important;
+ul.social-share li a {
+    color: #000000 !important;
+    font-size: 22px;
 }
 .zoom {
   padding: 50px;
@@ -359,6 +361,12 @@ p.text-9 {
   /* width: 200px;
   height: 200px; */
   margin: 0 auto;
+}
+ a.navbar-brand.my-name img {
+    width: 50%;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #f95522;
 }
 
 .zoom:hover {
