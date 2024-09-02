@@ -177,6 +177,10 @@ h1 a.typewrite {
     font-size: 61px;
     font-weight: 600;
 }
+nav.navbar.navbar-expand-lg.navbar-dark.fixed-top.fixed-top.my-nav {
+    background-color: #fff;
+    box-shadow: #f45422 0px 3px 8px;
+}
 .hero-content {
   width: 75%;
   text-align: left;
