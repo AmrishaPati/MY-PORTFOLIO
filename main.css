@@ -152,7 +152,13 @@ ul.my-menu li a {
   height: 100%;
   z-index: 1; /* Ensure the overlay is behind the content */
 }
-
+h1 a.typewrite {
+    font-family: 'Poppins';
+    color: #fff;
+    text-decoration: none;
+    font-size: 61px;
+    font-weight: 600;
+}
 .hero-content {
   width: 75%;
   text-align: left;
